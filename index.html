@@ -8,29 +8,34 @@ layout: default
   </header>
   <p>Transhumanizem predstavlja tako osebno filozofijo, način mišljenja ter svetovni in življenjski nazor, kakor tudi odprto intelektualno in kulturno gibanje, ki potrjuje možnost in zaželenost temeljnega izboljšanja človeskega&#160;stanja.</p>
 
-  <p>Če imate kakšno vprašanje za nas, nam <a href="mailto:kontakt@transhumanizem.org">pišite</a>.</p>
+  <p>Pridružite se nam na mailing listi ali nas <a href="mailto:kontakt@transhumanizem.org">pišite</a>.</p>
 </section>
 
 
 <section class="articles">
-  <h1>Članki</h1>
+  <h1>
+    Članki
+    <a href="#_" class="control" style="display:none">prikaži vse</a>
+  </h1>
   <ul class="articles">
     {% for article in site.posts %}
     <li class="article">
       <a href="{{ article.url }}" data-tags="{{ article.categories | join: ", " }}">
         {{ article.title }}
       </a>
-      <span>{{ article.last_updated | date: "%d.%m.%Y" }}</span>
+      <time>{{ article.last_updated | date: "%d.%m.%Y" }}</time>
     </li>
     {% endfor %}
   </ul>
 </section>
 
-<section class="tags">
-  <h1>Ključne besede</h1>
+<section id="tag-picker" class="tags">
+  <h1>
+    Ključne besede
+  </h1>
   <ul>
     {% for tag in site.categories %}
-    <li class="tag" id="tag_13">
+    <li class="tag">
       <a href="#{{ tag | first }}">{{ tag | first }}</a>
     </li>
     {% endfor %}

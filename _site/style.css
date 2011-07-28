@@ -142,8 +142,7 @@ blockquote p {
   color: #666666; }
 
 ul li {
-  list-style: square;
-  list-position: outside; }
+  list-style: square; }
 
 ol {
   margin-left: 3em; }
@@ -153,11 +152,6 @@ ol {
 table {
   border-collapse: collapse;
   margin-bottom: 1.714em; }
-
-code {
-  background: #fbff88;
-  font-family: Monaco, "Courier new";
-  font-color: #666666; }
 
 section.tags a {
   background: #eeeeee;
@@ -192,6 +186,26 @@ section.tags h1 {
   margin-top: 0.778em;
   margin-bottom: 0.189em;
   color: #333333; }
+section.articles h1 a {
+  color: #980000;
+  margin-top: 6px;
+  margin-right: 17.5em;
+  line-height: 15px;
+  font-size: 15px;
+  float: right;
+}
+section.articles li time {
+  color: #aaa;
+}
+section.tags li a.active {
+  text-decoration: none; 
+  color: #980000; }
+ul.filtered li {
+  display: none
+}
+ul.filtered li.selected {
+  display: list-item
+}
 
 article .meta {
   padding: 1.905em 0;
