@@ -207,6 +207,20 @@ ul.filtered li.selected {
   display: list-item
 }
 
+section.source {
+  clear: both;
+  padding-top: 50px;
+  border-top: 1px solid #DBDCDB;
+}
+section.source {
+  font-size: 12px;
+  color: #888;
+  letter-spacing: 0.02em
+}
+section.source a {
+  color: #666;
+}
+
 article .meta {
   padding: 1.905em 0;
   line-height: 1.905em;
