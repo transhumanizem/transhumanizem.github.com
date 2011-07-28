@@ -18,10 +18,10 @@ body_id: "articles-show"
       {{ page.author }}
       (<a href="{{ page.source_url }}">izvirni članek</a>)
     </div>
-    <div class="time">
+    <time datetime="{{ page.last_updated | date_to_xmlschema }}">
       Zadnja posodobitev:
       {{ page.last_updated | date: "%d.%m.%Y" }}
-    </div>
+    </time>
   </div>
   <div id="article-content">
     {{ content }}

@@ -23,7 +23,9 @@ layout: default
       <a href="{{ article.url }}" data-tags="{{ article.categories | join: ", " }}">
         {{ article.title }}
       </a>
-      <time>{{ article.last_updated | date: "%d.%m.%Y" }}</time>
+      <time datetime="{{ article.last_updated | date_to_xmlschema }}">
+        {{ article.last_updated | date: "%d.%m.%Y" }}
+      </time>
     </li>
     {% endfor %}
   </ul>
