@@ -3,7 +3,7 @@ layout: post
 title: "Zakaj nesmrtnost?"
 categories: [nesmrtnost]
 last_updated: 2008-04-18
-source_url: ""
+source_url: "http://www.longecity.org/forum/topic/164-why-immortality/"
 author: "Michael Anissimov"
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "O Singularnosti intervju"
+title: "Intervju: O Singularnosti"
 categories: [singularnost, intervju]
 last_updated: 2008-04-18
-source_url: ""
+source_url: "http://www.longecity.org/forum/topic/77-singularity-introduction-eliezer-yudkowsky/"
 author: "Bruce J. Klein"
 ---
 

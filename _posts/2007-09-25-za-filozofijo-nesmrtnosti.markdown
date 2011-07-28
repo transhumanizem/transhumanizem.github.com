@@ -3,8 +3,8 @@ layout: post
 title: "Za filozofijo nesmrtnosti"
 categories: [dolgoživost, nesmrtnost]
 last_updated: 2008-04-18
-source_url: "http://www.geocities.com/rational_argumentator/immortality.html"
-author: " Marc Geddes"
+source_url: "http://www.longecity.org/forum/topic/1500-towards-a-philosophy-of-immortality/"
+author: "Marc Geddes"
 ---
 
 Hočete živeti večno? Zakaj? Kaj je razlog za vaše prepričanje? Kaj je pomen? To so filozofska vprašanja in če veste ali ne, vaš odgovor izvira iz vaše filozofije o življenju in smrti.

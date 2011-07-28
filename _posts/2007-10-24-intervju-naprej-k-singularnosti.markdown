@@ -3,7 +3,7 @@ layout: post
 title: "Intervju: Naprej k Singularnosti"
 categories: [singularnost, intervju]
 last_updated: 2008-04-18
-source_url: ""
+source_url: "http://www.longecity.org/forum/topic/76-singularity-introduction-michael-anissimov/"
 author: "Bruce J. Klein"
 ---
 

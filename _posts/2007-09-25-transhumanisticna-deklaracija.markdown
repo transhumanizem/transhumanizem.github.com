@@ -3,7 +3,7 @@ layout: post
 title: "Transhumanistična deklaracija"
 categories: [transhumanizem]
 last_updated: 2008-04-18
-source_url: "http://www.transhumanism.org/declaration.htm"
+source_url: "http://humanityplus.org/learn/transhumanist-declaration/"
 author: "World Transhumanist Association"
 ---
 
@@ -11,9 +11,9 @@ author: "World Transhumanist Association"
 
 2. V razumevanje prihodnjega razvoja in njegovih dolgoročnih posledic je treba usmeriti sistematične raziskave.
 
-3.Transhumanisti mislimo, da odprtost do in sprejemanje teh tehnologij - pomeni prednost. Eventualno prepovedovanje razvoja pa bi bilo slabo.</li>
+3. Transhumanisti mislimo, da odprtost do in sprejemanje teh tehnologij - pomeni prednost. Eventualno prepovedovanje razvoja pa bi bilo slabo.
 
-4.Transhumanisti zagovarjamo moralno pravico vsakogar, da uporabi tehnologijo za razširjanje razumskih in telesnih sposobnosti in za razpolaganje z lastnim življenjem. Iščemo možnosti osebnega napredka preko trenutnih bioloških omejitev.
+4. Transhumanisti zagovarjamo moralno pravico vsakogar, da uporabi tehnologijo za razširjanje razumskih in telesnih sposobnosti in za razpolaganje z lastnim življenjem. Iščemo možnosti osebnega napredka preko trenutnih bioloških omejitev.
 
 5. V načrtovanju prihodnosti, je obvezno upoštevati dramatični tehnološki napredek. Bilo bi tragično, če bi zamudili dobre reči zaradi neutemeljene tehnofobije in nepotrebnih prepovedi. Po drugi strani pa bi bilo prav tako tragično, če bi inteligentno življenje izginilo s planeta zaradi kakšne katastrofe ali vojne sprožene ali vodene z naprednimi tehnologijami.
 
