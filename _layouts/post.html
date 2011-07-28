@@ -1,0 +1,29 @@
+---
+layout: default
+body_id: "articles-show"
+---
+<article>
+  <header>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <div class="meta">
+    <div class="tags">
+      Ključne besede:
+      {% for tag in page.categories %}
+      <a href="#{{ tag }}">{{ tag}}</a>
+      {% endfor %}
+    </div>
+    <div class="author">
+      Avtor:
+      {{ page.author }}
+      (<a href="{{ post.soruce_url }}">izvirni članek</a>)
+    </div>
+    <div class="time">
+      Zadnja posodobitev:
+      {{ page.last_updated | date: "%d.%m.%Y" }}
+    </div>
+  </div>
+  <div id="article-content">
+    {{ content }}
+  </div>
+</article>

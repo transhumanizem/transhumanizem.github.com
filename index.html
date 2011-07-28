@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<section id="intro">
+  <header>
+    <h1>Transhumanizem</h1>
+  </header>
+  <p>Transhumanizem predstavlja tako osebno filozofijo, način mišljenja ter svetovni in življenjski nazor, kakor tudi odprto intelektualno in kulturno gibanje, ki potrjuje možnost in zaželenost temeljnega izboljšanja človeskega&#160;stanja.</p>
+
+  <p>Če imate kakšno vprašanje za nas, nam <a href="mailto:kontakt@transhumanizem.org">pišite</a>.</p>
+</section>
+
+
+<section class="articles">
+  <h1>Članki</h1>
+  <ul class="articles">
+    {% for article in site.posts %}
+    <li class="article">
+      <a href="{{ article.url }}" data-tags="{{ article.categories | join: ", " }}">
+        {{ article.title }}
+      </a>
+      <span>{{ article.last_updated | date: "%d.%m.%Y" }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="tags">
+  <h1>Ključne besede</h1>
+  <ul>
+    {% for tag in site.categories %}
+    <li class="tag" id="tag_13">
+      <a href="#{{ tag | first }}">{{ tag | first }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

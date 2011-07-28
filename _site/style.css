@@ -1,0 +1,209 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+*:focus {
+  outline: 0; }
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+  font-size: 62.5%; }
+
+ol, ul {
+  list-style: none; }
+
+form.button_to {
+  display: inline;
+  padding: 0 !important;
+  background: transparent !important; }
+  form.button_to button {
+    background: transparent;
+    border: none;
+    font-size: 1em;
+    cursor: pointer; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: ""; }
+
+blockquote, q {
+  quotes: "" ""; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+form.button-to {
+  display: inline; }
+  form.button-to div {
+    display: inline; }
+    form.button-to div input {
+      background: transparent;
+      border: none; }
+
+html, body {
+  color: #111111; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.4em;
+  font-family: helvetica, sans-serif;
+  line-height: 1.714em;
+  border-top: 25px solid black; }
+
+#logo {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  color: #999999;
+  text-decoration: none !important;
+  padding-top: 2px; }
+  #logo:hover {
+    color: white; }
+
+#wrapper {
+  position: relative;
+  margin: -25px auto 0;
+  padding-top: 93px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 100px;
+  width: 50em; }
+  #wrapper strong {
+    font-weight: bold; }
+
+a {
+  text-decoration: underline; }
+
+a:link {
+  color: #980000; }
+
+a:visited {
+  color: #3c0000; }
+
+a:hover {
+  color: red; }
+
+article header > h1 {
+  font-size: 2em;
+  text-shadow: #999999 -1px 1px 1px;
+  margin-top: 0.7em;
+  margin-bottom: 0.17em; }
+
+article h1 {
+  font-size: 1.429em;
+  line-height: 1.2em;
+  margin-top: 0;
+  margin-bottom: 1.2em; }
+
+article h2 {
+  font-size: 1.286em;
+  line-height: 1.333em;
+  margin-bottom: 1.333em; }
+
+article h3 {
+  font-size: 1.143em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em; }
+
+p, ul, ol, dl, pre, td, th {
+  font-size: 1em;
+  line-height: 1.714em;
+  margin-bottom: 1.714em; }
+
+p.small {
+  font-size: 0.857em;
+  line-height: 2em;
+  margin-bottom: 2em; }
+
+blockquote p {
+  margin-bottom: 1.429em;
+  line-height: 1.429em;
+  font-size: 1.2em;
+  font-style: italic;
+  color: #666666; }
+
+ul li {
+  list-style: square;
+  list-position: outside; }
+
+ol {
+  margin-left: 3em; }
+  ol li {
+    list-style-type: decimal; }
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1.714em; }
+
+code {
+  background: #fbff88;
+  font-family: Monaco, "Courier new";
+  font-color: #666666; }
+
+section.tags a {
+  background: #eeeeee;
+  color: #333333; }
+  section.tags a:hover {
+    background: #d0c1c2; }
+section.tags li {
+  display: inline;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-right: 0.3em; }
+
+html[data-url="/index.html"] body {
+  background: url("../images/intro_bg.gif") 0 10px repeat-x; }
+#intro {
+  padding-bottom: 1.714em; }
+  #intro h1 {
+    font-size: 2em;
+    text-shadow: #999999 -1px 1px 1px;
+    margin-top: 0.7em;
+    margin-bottom: 0.17em; }
+
+section.articles, section.tags {
+  float: left; }
+section.articles {
+  width: 59%; }
+section.tags {
+  width: 39%; }
+section.articles h1,
+section.tags h1 {
+  font-size: 1.8em;
+  margin-top: 0.778em;
+  margin-bottom: 0.189em;
+  color: #333333; }
+
+article .meta {
+  padding: 1.905em 0;
+  line-height: 1.905em;
+  font-size: 0.9em;
+  color: #333333; }
+  article .meta a:link, article .meta a:visited {
+    color: black; }
+
+.clearfix, #wrapper:after, h1:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
